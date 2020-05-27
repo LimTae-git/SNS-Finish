@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+.btn-class {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  background: black;
+  border: 1px solid silver;
+  color: white;
+  height: 37px;
+  line-height: 37px;
+  width: 70%;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#kakao.btn {
+  margin-bottom: 30px;
+}
+
+input[type='text'], input[type='email'], input[type='password'], textarea {
+  border-radius: 4px;
+  height: 37px;
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+#container {
+  width: 800px;
+  height: 450px;
+  overflow: hidden;
+}
+
+#img-container {
+  background-image: url("/images/hellohazel.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  width: 60%;
+  height: 100%;
+  float: left;
+  box-shadow: 5px;
+}
+
+#log-container {
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 40%;
+  float: right;
+}
+
+.content-header{
+  border-bottom: 1px solid silver;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.input-group {
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 70%;
+}
+
+.Or {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
